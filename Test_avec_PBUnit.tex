@@ -78,35 +78,8 @@
 \tableofcontents
 \clearpage
 
-%\section*{Activités }
-
-%\begin{enumerate}
-%\item 
-%\end{enumerate}
-
-% \begin{tikzpicture}
-% \tikzset{every node/.style={on chain,draw,thick,rounded corners,
-% minimum height=3em, text width=10em, align=center}}
-% \begin{scope}[start chain=going below]
-% \node (prepare-group) {Configuration de Power unit };6
-% .30+
-% \node (import-group) {Écriture du  (\texttt{.xml})};
-% \node (enter-rating) {Enter peer ratings given by each student};
-% \node (compute-score) {Compute autorated weights and scores};
-% \node (export-csv) {Export data for Excel (\texttt{.csv})};
-% \end{scope}
-% \node[right=of enter-rating] (open-score) {Open previously saved score file (\texttt{.xml})};
-
-% \path[draw,line width=0.4ex, ->,>= angle 60]
-% (prepare-group) edge (import-group) 
-% (import-group) edge (enter-rating)
-% (open-score) edge (enter-rating)
-% (enter-rating) edge (compute-score) 
-% (compute-score) edge (export-csv);
-% \end{tikzpicture}
-
-
 \section{Généralités sur les tests Unitaires}
+
 \theoremstyle{definition}
 \begin{definition}{\textbf{Tester un projet}}
  est un processus manuel ou automatisé qui vise à vérifier qu'un système satisfait les propriétés requises par ses spécifications, ou à détecter les différences entre les résultats produits par le système et ceux attendus par les spécifications
@@ -130,7 +103,9 @@
     
 \end{itemize}
 Dans ce guide, nous allons nous concentrer sur les tests unitaires
+
 \subsection{Tests unitaires}
+
 \subsubsection{Vocabulaire}
 \theoremstyle{definition}
 \begin{definition}{ \textbf{Un cas de test}}
@@ -184,14 +159,14 @@ La Figure \ref{fig:powerUnit} presente le diagramme de classe de Power Unit. La 
 
 
 
-\subsection{Ecriture de tests avec Power Unit}
+\section{Ecriture de tests avec Power Unit}
 Dans le cadre de ce apprentissage, je vais reprendre l'exemple de la documentation de Power Unit.
 Le programme que nous allons parcourir résoudra le problème de la représentation de l'arithmétique avec des monnaies multiples. 
  L'arithmétique entre les même monnaies  est triviale ; vous pouvez simplement additionner les deux montants.
  Les choses deviennent plus intéressantes une fois que des monnaies multiples sont introduites. 
  Vous ne pouvez pas vous contenter de convertir une monnaie en une autre pour faire de l'arithmétique puisqu'il n'y a pas de taux de conversion unique.
 
-\subsubsection{Préparation de l'environnement}
+\subsection{Préparation de l'environnement}
 Pour suivre ce apprentissage, vous avez besoin:
 \begin{itemize}
     \item d'avoir l'IDE \textbf{Powerbuilder} installer sur votre machine
@@ -200,11 +175,12 @@ Pour suivre ce apprentissage, vous avez besoin:
     \item Créer un répertoire qui va accueillir les objets durant ce apprentissage  
     \item Créer un nouvel espace de travail nommé \textit{PBCookBook} 
     \item Créer une \textit{target} nommée \textit{PBCookBook} dans l'espace de travail.
-    \item Inclure la bibliothèque \textit{PBUnit.pbl} téléchargée précédemment 
+    \item Inclure la bibliothèque \textit{PBUnit.pbl} téléchargée précédemment .
+    \item  Creér une nouvelle bibliothèque PBCookBookTests pour acceuillir les tests
 \end{itemize}
 
  %\menu{File>Save} or pressing \keys{Ctrl+S}.
-\subsubsection{Creation d'un objet à tester}
+\subsection{Creation d'un objet à tester}
 Nous allons commencer par définir simplement un objet  qui représentera une valeur monétaire dans une monnaie unique. 
 Mais d'abord, créons un objet de base que nous expliquerons plus loin dans ce mode opératoire:
 \begin{itemize}
@@ -272,7 +248,122 @@ Ajoutez une nouvelle méthode of\_Equals() à votre objet \textit{n\_cst\_Money}
 \end{lstlisting}
 \end{itemize}
 
+\subsection{Première entrée de jeu}
+\subsubsection{Création d'un cas de test}
+Maintenant, au lieu de continuer à coder, arrêtons nous et obtenons un retour d'information immédiat en pratiquant 
+\textit{\textcolor{red}{"coder un peu, tester un peu, coder un peu, tester un peu"}}.
+Un test est mis en oeuvre  en créant une sous-classe de l'objet TestCase.
+Nous allons donc créer une classe \textit{n\_cst\_MoneyTest}, que nous allons  placer dans bibliothèque  \textit{PBCookBookTests}.  
+Notez que "e" représente le code de la monnaie pour l'euro.
+\begin{itemize}
+    \item Assurez-vous que le \textit{PBUnit.PBL} figure dans la liste des bibliothèques de votre cible PBCookBook. 
+     Cela vous donne accès à toutes les classes d'objets de test PBUnit.
+    \item Héritez de la classe TestObject dans PBUnit.PBL et enregistrez-la sous le nom de \textit{n\_cst\_MoneyTest}.
+    \item Écrivons un scénario de test pour nous assurer que la méthode \textit{of\_Equals} fonctionne lorsque les objets \textit{money} sont le même objet:
+  
+ \begin{lstlisting}[language=Python, caption=Test d'égalité de deux \textit{money}]
 
+     /*	EVENT	TestEquals()	*/
+
+n_cst_Money	lnv_euro12;
+n_cst_Money	lnv_euro14;
+n_cst_Money	lnv_euro12b;
+
+lnv_euro12 = CREATE n_cst_Money;
+lnv_euro14 = CREATE n_cst_Money;
+lnv_euro12b = CREATE n_cst_Money;
+
+lnv_euro12.of_Initialize( 12.00, "e" );
+lnv_euro14.of_Initialize( 14.00, "e" );
+lnv_euro12b.of_Initialize( 12.00, "e" );
+
+THIS.Assert ( lnv_euro12.of_Equals ( lnv_euro12 ) );
+THIS.Assert ( NOT lnv_euro12.of_Equals ( lnv_euro14 ) );
+THIS.Assert ( lnv_euro12.of_Equals ( lnv_euro12b ) );
+return
+\end{lstlisting}
+\item Ajoutez une méthode, \textit{testSimpleAdd()} qui testera notre méthode  \textit{of\_add()}.
+
+\begin{lstlisting}[language=Python, caption=Test d'addition de deux \textit{money}]
+    /*	EVENT	testSimpleAdd()	*/
+    //		#1
+    n_cst_money	lnv_euro12;
+    n_cst_money	lnv_euro14;
+    n_cst_money	lnv_ExpectedResult;
+    n_cst_money	lnv_ActualResult;
+    
+    lnv_euro12 = CREATE n_cst_Money;
+    lnv_euro12.of_Initialize ( 12.00, "e" );
+    
+    lnv_euro14 = CREATE n_cst_Money;
+    lnv_euro14.of_Initialize ( 14.00, "e" );
+    
+    lnv_ExpectedResult = CREATE n_cst_Money;
+    lnv_ExpectedResult.of_Initialize ( 12.00+14.00, "e" );
+    //		#2
+    lnv_ActualResult = lnv_euro12.of_Add ( lnv_euro14 );
+    //		#3
+    THIS.Assert ( ( lnv_ExpectedResult.of_Equals ( lnv_ActualResult ) ), true );
+    return;
+\end{lstlisting}
+Maintenant que nous avons créé nos deux cas de test, nous remarquons qu'il y a un peu de duplication de code pour la mise en place de ces deux tests. 
+ Il serait bon de réutiliser une partie de ce code de mise en place. 
+ Pour ce faire, il suffit de déclarer les objets ressources comme variables d'instance et de les initialiser en redéfinissant l'événement \textit{\textbf{\textcolor{red}{setUp}}}.
+ L'opération symétrique de \textit{\textbf{\textcolor{red}{setUp}}}  est le \textit{\textbf{\textcolor{red}{tearDown}}} que vous pouvez redéfinir pour liberer les ressources  à la fin d'un test. 
+ Chaque test a ces propre ressources ou son contexte d'execution. \textit{PBUnit}  execute les évènements \textit{\textbf{\textcolor{red}{setUp}}} et \textit{\textbf{\textcolor{red}{tearDown}}}
+ pour chaque test pour éviter les éffets de bord au niveau des tests.
+ 
+ \begin{lstlisting}[language=Python, caption=Setup et TearDown]
+    Private:
+    n_cst_Money	inv_euro12;
+    n_cst_Money	inv_euro14;
+    
+    /*	EVENT	setUp ()		*/
+    inv_euro12 = CREATE n_cst_Money;
+    inv_euro14 = CREATE n_cst_Money;
+    inv_euro12.of_Initialize( 12.00, "e" );
+    inv_euro14.of_Initialize( 14.00, "e" );
+    
+    /*	EVENT	tearDown()	*/
+    IF IsValid ( inv_euro12 ) THEN 	DESTROY inv_euro12; 
+    IF IsValid ( inv_euro14 ) THEN 	DESTROY inv_euro14;
+    
+\end{lstlisting}
+Nous pouvons réécrire les deux méthodes de cas de test, en supprimant le code de configuration commun :
+
+\begin{lstlisting}[language=Python, caption=Test d'egalité sans la logique du d'initialisation]
+    /*	EVENT	TestEqual		*/
+    n_cst_Money	lnv_euro12b;
+    
+    lnv_euro12b = CREATE n_cst_Money;
+    lnv_euro12b.of_Initialize( 12.00, "e" );
+    
+    THIS.Assert ( inv_euro12.of_Equals ( inv_euro12 ) );
+    THIS.Assert ( NOT inv_euro12.of_Equals ( inv_euro14 ) );
+    THIS.Assert ( inv_euro12.of_Equals ( lnv_euro12b ) );
+    return
+    
+\end{lstlisting}
+
+
+\begin{lstlisting}[language=Python, caption=Test d'ajout simple sans la logique du d'initialisation]
+    /*	EVENT	testSimpleAdd		*/
+    n_cst_money	lnv_ExpectedResult;
+    n_cst_money	lnv_ActualResult;
+    
+    lnv_ExpectedResult = CREATE n_cst_Money;
+    lnv_ExpectedResult.of_Initialize ( 12.00+14.00, "e" );
+    //		#2
+    lnv_ActualResult = inv_euro12.of_Add ( inv_euro14 );
+    //		#3
+    THIS.Assert ( ( lnv_ExpectedResult.of_Equals ( lnv_ActualResult ) ) );
+    
+    return;
+    
+    
+\end{lstlisting}
+
+\end{itemize}
 % \bibliographystyle{plain}
 % \bibliography{refs}
 \end{document}

@@ -7,6 +7,8 @@
 \contentsline {subsubsection}{\numberline {1.2.3}Caractéristiques d'un bon cas test unitaire}{3}{subsubsection.1.2.3}%
 \contentsline {section}{\numberline {2}Power unit}{3}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Présentation}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Ecriture de tests avec Power Unit}{4}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Préparation de l'environnement}{4}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Creation d'un objet à tester}{4}{subsubsection.2.2.2}%
+\contentsline {section}{\numberline {3}Ecriture de tests avec Power Unit}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Préparation de l'environnement}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Creation d'un objet à tester}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Première entrée de jeu}{6}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Création d'un cas de test}{6}{subsubsection.3.3.1}%

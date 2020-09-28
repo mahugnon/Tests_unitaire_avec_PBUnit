@@ -1,9 +1,9 @@
-PWD c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit
+PWD c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit
 INPUT c:/texlive/2020/texmf.cnf
 INPUT c:/texlive/2020/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/Test_avec_PBUnit.tex
-OUTPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/Test_avec_PBUnit.log
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.tex
+OUTPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.log
 INPUT c:/texlive/2020/texmf-dist/tex/latex/refman/refart.cls
 INPUT c:/texlive/2020/texmf-dist/tex/latex/refman/refart.cls
 INPUT c:/texlive/2020/texmf-dist/tex/latex/base/size11.clo
@@ -211,7 +211,7 @@ INPUT c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
 INPUT c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
 INPUT c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 INPUT c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
-OUTPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/Test_avec_PBUnit.pdf
+OUTPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.pdf
 INPUT c:/texlive/2020/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -311,9 +311,9 @@ INPUT c:/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/fbb/T1fbb-TOsF.fd
 INPUT c:/texlive/2020/texmf-dist/tex/latex/fbb/T1fbb-TOsF.fd
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/fbb/fbb-Regular-tosf-t1.tfm
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/Test_avec_PBUnit.aux
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/Test_avec_PBUnit.aux
-OUTPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/Test_avec_PBUnit.aux
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.aux
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.aux
+OUTPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.aux
 INPUT c:/texlive/2020/texmf-dist/tex/latex/ly1/ly1ptm.fd
 INPUT c:/texlive/2020/texmf-dist/tex/latex/ly1/ly1ptm.fd
 INPUT c:/texlive/2020/texmf-dist/tex/latex/upquote/upquote.sty
@@ -330,13 +330,13 @@ INPUT c:/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT c:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT c:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/Test_avec_PBUnit.out
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/Test_avec_PBUnit.out
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/Test_avec_PBUnit.out
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/Test_avec_PBUnit.out
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/Test_avec_PBUnit.out
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/Test_avec_PBUnit.out
-OUTPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/Test_avec_PBUnit.out
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.out
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.out
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.out
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.out
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.out
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.out
+OUTPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.out
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/fbb/fbb-Regular-tosf-t1.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/fbb/fbb-Bold-tosf-t1.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/fbb/fbb-Italic-tosf-t1.tfm
@@ -355,10 +355,10 @@ INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/fbb/fbb-Regular-tosf-t1.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/fbb/fbb-Bold-tosf-t1.tfm
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/Test_avec_PBUnit.toc
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/Test_avec_PBUnit.toc
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.toc
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.toc
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/fbb/fbb-Bold-tosf-t1.tfm
-OUTPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/Test_avec_PBUnit.toc
+OUTPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.toc
 INPUT c:/texlive/2020/texmf-dist/fonts/vf/public/fbb/fbb-Bold-tosf-t1.vf
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/fbb/fbb-Bold-tosf-t1--base.tfm
 INPUT c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -370,13 +370,13 @@ INPUT c:/texlive/2020/texmf-dist/fonts/vf/public/fbb/fbb-Bold-tosf-t1.vf
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/fbb/fbb-Bold-tosf-t1--base.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/vf/public/fbb/fbb-Bold-tosf-t1.vf
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/fbb/fbb-Bold-tosf-t1--base.tfm
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/./testcase.png
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/./testcase.png
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/./testcase.png
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./testcase.png
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./testcase.png
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./testcase.png
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/fbb/fbb-Regular-tosf-sc-t1.tfm
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/./frameworkPBUnit.png
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/./frameworkPBUnit.png
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/./frameworkPBUnit.png
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./frameworkPBUnit.png
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./frameworkPBUnit.png
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./frameworkPBUnit.png
 INPUT c:/texlive/2020/texmf-dist/fonts/vf/public/fbb/fbb-Regular-tosf-sc-t1.vf
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/fbb/fbb-Regular-tosf-sc-t1--base.tfm
 INPUT c:/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -384,16 +384,20 @@ INPUT c:/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/fbb/fbb-Regular-tosf-t1.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/vf/public/fbb/fbb-Regular-tosf-t1.vf
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/fbb/fbb-Regular-tosf-t1--base.tfm
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/Test_avec_PBUnit.aux
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/Test_avec_PBUnit.out
-INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests unitaire avec PBUnit/Test_avec_PBUnit.out
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/fbb/fbb-BoldItalic-tosf-t1.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/vf/public/fbb/fbb-BoldItalic-tosf-t1.vf
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/fbb/fbb-BoldItalic-tosf-t1--base.tfm
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.aux
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.out
+INPUT c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.out
+INPUT c:/texlive/2020/texmf-dist/fonts/enc/dvips/fbb/fbb_2xprkz.enc
 INPUT c:/texlive/2020/texmf-dist/fonts/enc/dvips/fbb/fbb_3duhfc.enc
 INPUT c:/texlive/2020/texmf-dist/fonts/enc/dvips/fbb/fbb_62speq.enc
 INPUT c:/texlive/2020/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-5.enc
-INPUT c:/texlive/2020/texmf-dist/fonts/enc/dvips/fbb/fbb_2xprkz.enc
 INPUT c:/texlive/2020/texmf-dist/fonts/enc/dvips/fbb/fbb_4wcgh5.enc
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/fbb/fbb-Bold.pfb
+INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/fbb/fbb-BoldItalic.pfb
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/fbb/fbb-Italic.pfb
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/fbb/fbb-Regular.pfb
