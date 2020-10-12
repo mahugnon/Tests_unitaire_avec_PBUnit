@@ -1,4 +1,4 @@
-\documentclass[a4paper,11pt,french]{refart}
+\documentclass[a4paper,11pt,french]{report}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc} % LY1 also works
@@ -147,7 +147,7 @@ La Figure \ref{fig:testcase}   montre les quatre étapes d'un cas de test unitai
 \end{itemize}
 \section{Power unit}
 \subsection{Présentation}
- \begin{figure}[!htp]
+ \begin{figure}[!htbp]
   \begin{center}
   \includegraphics[width=1\linewidth]{./frameworkPBUnit.png}
   \caption{Power unit}
@@ -170,13 +170,14 @@ Le programme que nous allons parcourir résoudra le problème de la représentat
 Pour suivre ce apprentissage, vous avez besoin:
 \begin{itemize}
     \item d'avoir l'IDE \textbf{Powerbuilder} installer sur votre machine
-    \item de télécharger les bibliothèques de base de \href{https://github.com/mahugnon/PBUnitBase.git}{ Power Unit}
-    \item de télécharger les bibliothèques de l'interface graphique de \href{https://github.com/mahugnon/PBUnitGUI.git}{Power Unit} 
+    \item de télécharger les bibliothèques de base ( \textcolor{red}{\textbf{\textit{powerunit.pbl, powerunitfunc.pbl}}} ) de  Power Unit  \href{https://github.com/mahugnon/PBUnitBase.git}{ ici} 
+    \item de télécharger les bibliothèques de l'interface graphique de Power Unit  \textcolor{red}{\textbf{\textit{powerUnit.zip}}}  \href{https://github.com/mahugnon/PowerUnitHonore/releases/download/v3.1.2/powerUnit.zip}{ici} 
     \item Créer un répertoire qui va accueillir les objets durant ce apprentissage  
     \item Créer un nouvel espace de travail nommé \textit{PBCookBook} 
+    \item Copier les bibliothèques ( \textcolor{red}{\textbf{\textit{powerunit.pbl, powerunitfunc.pbl}}}  dans l'espace de travail.
     \item Créer une \textit{target} nommée \textit{PBCookBook} dans l'espace de travail.
-    \item Inclure la bibliothèque \textit{PBUnit.pbl} téléchargée précédemment .
-    \item  Creér une nouvelle bibliothèque PBCookBookTests pour acceuillir les tests
+    \item Ajouter les bibliothèques ( \textcolor{red}{\textbf{\textit{powerunit.pbl, powerunitfunc.pbl}}}  téléchargée précédemment à la target  .
+    \item  Creér une nouvelle bibliothèque PBCookBookTests pour acceuillir les tests.
 \end{itemize}
 
  %\menu{File>Save} or pressing \keys{Ctrl+S}.
@@ -364,6 +365,62 @@ Nous pouvons réécrire les deux méthodes de cas de test, en supprimant le code
 \end{lstlisting}
 
 \end{itemize}
+\subsection{Exécution des tests}
+Il existe deux méthodes pour exécuter les tests que vous avez programmés dans votre objet TestCase:  Statique et dynamique.
+ Avec la méthode statique, vous surchargerez l'événement runTest dans le n\_cst\_MoneyTest et exécuterez chacun des tests que vous voulez exécuter.
+
+
+\begin{lstlisting}[language=Python, caption= Redefinition de l'evènement \textit{runTest}]
+    /*	EVENT	runTest ()	*/
+    THIS. EVENT testEqual ();
+    THIS. EVENT testSimpleAdd ();
+    Return;
+\end{lstlisting}
+La méthode dynamique est bien plus pratique que la méthode statique, même si elle permet d'obtenir le résultat souhaité, à savoir l'exécution des deux tests. 
+ Avec la méthode statique, vous devez vous souvenir de modifier la méthode \textit{runTest()} pour exécuter tout nouveau test que vous ajoutez à l'objet.
+ Avec la méthode dynamique, au lieu de déclarer les tests comme des fonctions d'objet, vous les déclarez comme des \textbf{\textit{\textcolor{red}{EVENTS}}} d'objet qui ne prennent aucun argument et dont le nom commence par \textbf{\textit{\textcolor{red}{"test"}}}.
+ C'est pourquoi nous avons utilisé des événements et nommé nos méthodes de test \textit{"testequal"} et \textit{"testsimpleadd"}.
+   En ne remplaçant pas l'événement runtest dans notre objet \textit{n\_cst\_MoneyTest}, tous les événements dont le nom commence par  \textbf{\textit{\textcolor{red}{"test"}}} seront automatiquement exécutés.
+
+\subsection{Explication de l'interface graphique de PBUnit}
+Cette partie suppose que vous avez déjà télécharger l'interface de Power  Unit. Si ce n'est pas encore fait, veillez le télécharger \href{https://github.com/mahugnon/PowerUnitHonore/releases/download/v3.1.2/powerUnit.zip}{ici} .
+\begin{itemize}
+    \item  Extraire le  fichier télécharger  vers "bureau/powerUnit"
+    \item  Double cliquer sur \textbf{\textit{\textcolor{red}{powerunitgui.exe}}}. 
+    La fenêtre de la Figure \ref{fig:emptyPowerUnit} s'ouvre
+    \begin{figure}[!htbp]
+        \begin{center}
+        \includegraphics[width=1\linewidth]{./emptyPowerUnit.png}
+        \caption{Power unit}
+        \label{fig:emptyPowerUnit}
+        \end{center}
+      \end{figure}
+   L'interface de Power Unit est composée de 3 partie principales.
+ La partie (1) presente la liste des tests groupées par biblothèques  contenues dans la \textit{target} sélectionnée.
+Parlant de \textit{target}, sélectionnons notre target \textit{PBCookBook.pbt}.
+\item  Cliquer sur \textit{Open Target ...} comme indiquer sur la Figure \ref{fig:openTarget} ou bien faite \textit{Ctrl+O}.
+
+\begin{figure}[!htbp]
+    \begin{center}
+    \includegraphics[width=1\linewidth]{./openTarget.png}
+    \caption{Choisir une target}
+    \label{fig:openTarget}
+    \end{center}
+  \end{figure}
+
+  \item  Naviguer vers l'emplacement de la target qui contient les tests (dans ce cas \textit{PBCookBook}), puis selectionner la target \textit{nom\_target.pbt} (\textit{PBCookBook.pbt} dans ce cas). 
+
+  \begin{figure}[!htbp]
+    \begin{center}
+    \includegraphics[width=1\linewidth]{./chooseTestTarget.png}
+    \caption{Selectionner la target à son emplacement}
+    \label{fig:chooseTestTarget}
+    \end{center}
+  \end{figure}
+
+  
+\end{itemize}
+
 % \bibliographystyle{plain}
 % \bibliography{refs}
 \end{document}

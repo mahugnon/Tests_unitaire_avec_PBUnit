@@ -1,14 +1,16 @@
 \babel@toc {french}{}
-\contentsline {section}{\numberline {1}Généralités sur les tests Unitaires}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Tests}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Tests unitaires}{2}{subsection.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}Vocabulaire}{2}{subsubsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2}Présentation de cas de test unitaire}{3}{subsubsection.1.2.2}%
-\contentsline {subsubsection}{\numberline {1.2.3}Caractéristiques d'un bon cas test unitaire}{3}{subsubsection.1.2.3}%
-\contentsline {section}{\numberline {2}Power unit}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Présentation}{3}{subsection.2.1}%
-\contentsline {section}{\numberline {3}Ecriture de tests avec Power Unit}{4}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Préparation de l'environnement}{4}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Creation d'un objet à tester}{5}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Première entrée de jeu}{6}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Création d'un cas de test}{6}{subsubsection.3.3.1}%
+\contentsline {section}{\numberline {0.1}Généralités sur les tests Unitaires}{2}{section.0.1}%
+\contentsline {subsection}{\numberline {0.1.1}Tests}{2}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {0.1.2}Tests unitaires}{2}{subsection.0.1.2}%
+\contentsline {subsubsection}{Vocabulaire}{2}{section*.2}%
+\contentsline {subsubsection}{Présentation de cas de test unitaire}{3}{section*.3}%
+\contentsline {subsubsection}{Caractéristiques d'un bon cas test unitaire}{3}{section*.4}%
+\contentsline {section}{\numberline {0.2}Power unit}{4}{section.0.2}%
+\contentsline {subsection}{\numberline {0.2.1}Présentation}{4}{subsection.0.2.1}%
+\contentsline {section}{\numberline {0.3}Ecriture de tests avec Power Unit}{4}{section.0.3}%
+\contentsline {subsection}{\numberline {0.3.1}Préparation de l'environnement}{4}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {0.3.2}Creation d'un objet à tester}{5}{subsection.0.3.2}%
+\contentsline {subsection}{\numberline {0.3.3}Première entrée de jeu}{7}{subsection.0.3.3}%
+\contentsline {subsubsection}{Création d'un cas de test}{7}{section*.5}%
+\contentsline {subsection}{\numberline {0.3.4}Exécution des tests}{10}{subsection.0.3.4}%
+\contentsline {subsection}{\numberline {0.3.5}Explication de l'interface graphique de PBUnit}{10}{subsection.0.3.5}%
