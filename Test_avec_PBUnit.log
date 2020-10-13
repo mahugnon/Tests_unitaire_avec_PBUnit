@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.17)  13 OCT 2020 17:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.17)  13 OCT 2020 17:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -525,11 +525,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 61.
 \c@definition=\count311
- (c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.aux
-
-LaTeX Warning: Label `fig:librarylist' multiply defined.
-
-)
+ (c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.aux)
 \openout1 = `Test_avec_PBUnit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
@@ -562,7 +558,8 @@ LaTeX Info: Redefining \showhyphens on input line 71.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- (c:/texlive/2020/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+
+(c:/texlive/2020/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 \c@lstlisting=\count312
@@ -746,21 +743,17 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 529.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 529.
 Package rerunfilecheck Info: File `Test_avec_PBUnit.out' has not changed.
 (rerunfilecheck)             Checksum: D9BA18217BCE311F948732E39B7B2AD0;1240.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 25521 strings out of 480876
- 463323 string characters out of 5911487
- 1084165 words of memory out of 5000000
- 40378 multiletter control sequences out of 15000+600000
+ 25522 strings out of 480876
+ 463352 string characters out of 5911487
+ 1084183 words of memory out of 5000000
+ 40379 multiletter control sequences out of 15000+600000
  554866 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,8n,87p,916b,2049s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss0700.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/wasy-type1/wasy10.pfb>
-Output written on c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.pdf (17 pages, 649118 bytes).
+Output written on c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.pdf (17 pages, 649117 bytes).
 PDF statistics:
  488 PDF objects out of 1000 (max. 8388607)
  419 compressed objects within 5 object streams
