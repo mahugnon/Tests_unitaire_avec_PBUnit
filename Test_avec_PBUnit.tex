@@ -1,16 +1,9 @@
-\documentclass[a4paper,11pt,french]{report}
-
+\documentclass[french]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc} % LY1 also works
 \usepackage{babel}
+\usepackage{wasysym}
 
-%% Font settings suggested by fbb documentation.
-\usepackage{textcomp} % to get the right copyright, etc.
-\usepackage[lining,tabular]{fbb} % so math uses tabular lining figures
-\usepackage[scaled=.95,type1]{cabin} % sans serif in style of Gill Sans
-\usepackage[varqu,varl]{zi4}% inconsolata typewriter
-\useosf % change normal text to use proportional oldstyle figures
-%\usetosf would provide tabular oldstyle figures in text
 \usepackage{amsthm}
 \usepackage{microtype}
 \usepackage{listings}
@@ -42,18 +35,17 @@
 
 \lstset{style=mystyle}
 
+ \renewcommand{\labelitemi}{$\bullet$}
+ \renewcommand{\labelitemiv}{$\ast$}
+\renewcommand{\labelitemii}{$\cdot$}
+\renewcommand{\labelitemiii}{$\diamond$}
+
+% \setlist[itemize]{label=\textbullet}
+
 \usepackage{graphicx}
-\usepackage{enumitem}
-\setlist{leftmargin=*}
-\usepackage{listings}
-\lstset{basicstyle=\ttfamily,frame=single,xleftmargin=3em,xrightmargin=3em}
 \usepackage[os=win]{menukeys}
 \renewmenumacro{\keys}[+]{shadowedroundedkeys}
-\usepackage{framed}
-\usepackage{etoolbox}
-\AtBeginEnvironment{leftbar}{\sffamily\small}
 
-\usetikzlibrary{chains,arrows,shapes,positioning}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
@@ -76,6 +68,8 @@
 
 
 \tableofcontents
+\newpage
+\listoffigures
 \clearpage
 
 \section{Généralités sur les tests Unitaires}
@@ -92,12 +86,12 @@
     \item représentent la \textbf{\textcolor{red}{confiance}} sur l'état de santé du système;
     \item se construisent \textbf{\textcolor{red}{progressivement}}:
     \begin{itemize}
-        \item[$\bullet$] pas besoin d'écrire tous les tests d'un coups
-        \item[$\bullet$] à chaque nouveau  \textbf{\textcolor{red}{dysfonctionnement ou ticket, écrire des tests}};
+        \item pas besoin d'écrire tous les tests d'un coups
+        \item à chaque nouveau  \textbf{\textcolor{red}{dysfonctionnement ou ticket, écrire des tests}};
     \end{itemize}
     \item c'est d'ailleurs meilleur de les écrire avant d'implémenter la fonctionnalité 
     \begin{itemize}
-        \item[$\bullet$] agissent comme les premiers \textbf{\textcolor{red}{clients}} et une meilleure interface; 
+        \item agissent comme les premiers \textbf{\textcolor{red}{clients}} et une meilleure interface; 
     \end{itemize}
     \item représentent une documentation active et synchrone des fonctionnalités présentes dans le système.
     
@@ -110,9 +104,9 @@ Dans ce guide, nous allons nous concentrer sur les tests unitaires
 \theoremstyle{definition}
 \begin{definition}{ \textbf{Un cas de test}}
 \begin{itemize}
-  \item [$\bullet$] est généralement associé à la réussite d'un scénario de cas d'utilisation. Les développeurs ont souvent des scénarios de test à l'esprit, mais ils les réalisent de différentes manières (1) instructions d'affichage; (2) le débuguage ou les fichier de traces; etc.
+  \item  est généralement associé à la réussite d'un scénario de cas d'utilisation. Les développeurs ont souvent des scénarios de test à l'esprit, mais ils les réalisent de différentes manières (1) instructions d'affichage; (2) le débuguage ou les fichier de traces; etc.
 
- \item [$\bullet$] est un ensemble d'entrées de test, de conditions d'exécution et de résultats attendus, développé pour tester un chemin d'exécution particulier. Généralement, le cas est une méthode unique.
+ \item  est un ensemble d'entrées de test, de conditions d'exécution et de résultats attendus, développé pour tester un chemin d'exécution particulier. Généralement, le cas est une méthode unique.
  \end{itemize}
  \end{definition}
 
@@ -170,7 +164,7 @@ Le programme que nous allons parcourir résoudra le problème de la représentat
 Pour suivre ce apprentissage, vous avez besoin:
 \begin{itemize}
     \item d'avoir l'IDE \textbf{Powerbuilder} installer sur votre machine
-    \item de télécharger les bibliothèques de base ( \textcolor{red}{\textbf{\textit{powerunit.pbl, powerunitfunc.pbl}}} ) de  Power Unit  \href{https://github.com/mahugnon/PBUnitBase.git}{ ici} 
+    \item de télécharger les bibliothèques de base ( \textcolor{red}{\textbf{\textit{powerunit.pbl, powerunitfunc.pbl}}} ) de  Power Unit  \href{https://github.com/mahugnon/PowerUnitHonore.git}{ ici} 
     \item de télécharger les bibliothèques de l'interface graphique de Power Unit  \textcolor{red}{\textbf{\textit{powerUnit.zip}}}  \href{https://github.com/mahugnon/PowerUnitHonore/releases/download/v3.1.2/powerUnit.zip}{ici} 
     \item Créer un répertoire qui va accueillir les objets durant ce apprentissage  
     \item Créer un nouvel espace de travail nommé \textit{PBCookBook} 
@@ -382,7 +376,7 @@ La méthode dynamique est bien plus pratique que la méthode statique, même si 
  C'est pourquoi nous avons utilisé des événements et nommé nos méthodes de test \textit{"testequal"} et \textit{"testsimpleadd"}.
    En ne remplaçant pas l'événement runtest dans notre objet \textit{n\_cst\_MoneyTest}, tous les événements dont le nom commence par  \textbf{\textit{\textcolor{red}{"test"}}} seront automatiquement exécutés.
 
-\subsection{Explication de l'interface graphique de PBUnit}
+\subsection{Explication de l'interface graphique de PowerUnit}
 Cette partie suppose que vous avez déjà télécharger l'interface de Power  Unit. Si ce n'est pas encore fait, veillez le télécharger \href{https://github.com/mahugnon/PowerUnitHonore/releases/download/v3.1.2/powerUnit.zip}{ici} .
 \begin{itemize}
     \item  Extraire le  fichier télécharger  vers "bureau/powerUnit"
@@ -396,9 +390,9 @@ Cette partie suppose que vous avez déjà télécharger l'interface de Power  Un
         \end{center}
       \end{figure}
    L'interface de Power Unit est composée de 3 partie principales.
- La partie (1) presente la liste des tests groupées par biblothèques  contenues dans la \textit{target} sélectionnée.
+ La partie (1) presente la liste des tests groupées par les objet \textit{testcase}  contenues dans la \textit{target} sélectionnée.
 Parlant de \textit{target}, sélectionnons notre target \textit{PBCookBook.pbt}.
-\item  Cliquer sur \textit{Open Target ...} comme indiquer sur la Figure \ref{fig:openTarget} ou bien faite \textit{Ctrl+O}.
+\item  Dans le menu faire \menu{File>Open Target ...} comme indiquer sur la Figure \ref{fig:openTarget} ou bien faite \keys{Ctrl+O}.
 
 \begin{figure}[!htbp]
     \begin{center}
@@ -418,9 +412,110 @@ Parlant de \textit{target}, sélectionnons notre target \textit{PBCookBook.pbt}.
     \end{center}
   \end{figure}
 
-  
+  \item  La Figure \ref{fig:afterloadTarget} montre la partie (1) de PowerUnit après chargement des tests.
+  \begin{figure}[!htbp]
+    \begin{center}
+    \includegraphics[width=1\linewidth]{./afterloadTarget.png}
+    \caption{PowerUnit après chargement des tests}
+    \label{fig:afterloadTarget}
+    \end{center}
+  \end{figure}
+  \item  Selectionner un test et cliquer sur \textit{\textbf{\textcolor{red}{run}}} ou bien cliquer sur \textit{\textbf{\textcolor{red}{runAll}}}
+ La Figure \ref{fig:powerUnitTestRunned} présente PowerUnit après exécution des tests.
+  \begin{figure}[!htbp]
+    \begin{center}
+    \includegraphics[width=1\linewidth]{./powerUnitTestRunned.png}
+    \caption{PowerUnit après exécution des tests}
+    \label{fig:powerUnitTestRunned}
+    \end{center}
+  \end{figure}
+  \item  La partie (2) présente l'ensembe des tests qui ont échoué et la raison de l'échec.
+  \item La partie (3) présente  un rapport des executions, l'etat, le temps d'execution, etc.
+Dans le cas où tous les tests passent, Power Unit ressemble à la Figure \ref{fig:testPassed}
+\begin{figure}[!htbp]
+    \begin{center}
+    \includegraphics[width=1\linewidth]{./testPassed.png}
+    \caption{PowerUnit après exécution des tests}
+    \label{fig:testPassed}
+    \end{center}
+  \end{figure}
 \end{itemize}
 
+\subsection{Integration de PowerUniti avec Izy Protect}
+Dans cette section nous allons nous exercer a écrire un test unitaire Pour Izy Protect.
+La fonction \textit{f\_decimal} est une fonction gloabale de \textit{Izy Protect} qui prend en paramètre une chaîne de charactère et retourne une valeur décimal.
+Elle sera notre candidat pour cet exercice. 
+   Pour cela:
+\begin{enumerate}
+    \item Ouvrir Izy Protect dans L'IDE Powerbuilder
+    \item Cliquer droit sur la taget et choisir l'option \textit{Library list...} comme sur la Figure~\ref{fig:librarylist}
+    \begin{figure}[!htbp]
+        \begin{center}
+        \includegraphics[width=1\linewidth]{./librarylist.png}
+        \caption{Ouvrir la liste des bibliothèques}
+        \label{fig:librarylist}
+        \end{center}
+      \end{figure} 
+Ceci ouvrira l'explorateur de Windows qui vous permettra de Naviguer jusqu'à l'emplacement des bibliothèques \textcolor{red}{\textit{\textbf{pbunit et pbunitfunc}}}. 
+Si vous ne les retrouver pas, veillez les télécharger \href{https://github.com/mahugnon/PowerUnitHonore.git}{ ici} .
+\textbf{\textcolor{red}{ De préference copier ces deux bibliothèques dans la racine de Izy Protect}}. 
+Cela facilitera automatisation des execution sur la CI (Jenkins à l'arvenir).
+\item Choisir les bibliothèques \textcolor{red}{\textit{\textbf{pbunit et pbunitfunc}}}, puis valider votre choix.
+\begin{figure}[!htbp]
+    \begin{center}
+    \includegraphics[width=1\linewidth]{./choosetestbaselibraries.png}
+    \caption{Ajouter les bliothèques \textcolor{red}{\textit{\textbf{pbunit et pbunitfunc}}} à Izy Protect}
+    \label{fig:librarylist}
+    \end{center}
+  \end{figure} 
+  A cet point on est prêt pour écrire notre premier test unitaire pour Izy Protect. Je nous féllicite \smiley. 
+\item  Créer une bliothèque pour acceuillir les test.
+ Moi je l'appelle \textit{izy\_protect\_tests} (voir la Figure~\ref{fig:createTestLibrary}).
+\begin{figure}[!htbp]
+    \begin{center}
+    \includegraphics[width=1\linewidth]{./createTestLibrary.png}
+    \caption{Bibliothèque de tests}
+    \label{fig:createTestLibrary}
+    \end{center}
+  \end{figure} 
+  \item Faire  \menu{pbunit.pbl>testcase}, puis cliquer droit sur \textit{testcase}  et faire  \menu{testcase>Inherit from}.
+  \item Nommer l'object test \textit{test\_f\_decimal} et chosir la bibliothèque de test comme sur la Figure~\ref{fig:nameTestObject}
+  \begin{figure}[!htbp]
+    \begin{center}
+    \includegraphics[width=1\linewidth]{./nameTestObject.png}
+    \caption{Enregister la testcase}
+    \label{fig:nameTestObject}
+    \end{center}
+  \end{figure} 
+A titre de rappelle, un test cas de test unitaire est de préférence un evènement  qui ne retourne rien. 
+Ceci étant allons-y créer un test pour notre function gloable \textit{f\_decimal}.
+\item Créer deux évènements
+\begin{lstlisting}[language=Python, caption= f\_decimal test 1]
+    /*	EVENT	test\_integerString\_to\_decimal ()	*/
+    this.assertEqual(f\_decimal('12'),12.00)
+\end{lstlisting}
+
+\begin{lstlisting}[language=Python, caption= f\_decimal test 2]
+    /*	EVENT	test\_decimalString\_to\_decimal ()	*/
+    this.assertEqual(f\_decimal('0.45127'),0.45127)
+\end{lstlisting}
+\item  Faire \menu{File >Open Target ..} ou bion \keys{Ctrl+O} puis choisir la \textit{target.pbt} de \textit{Izy Protect} et valider.
+\item Cliquer sur le bouton \keys{runAll} pour executer les deux tests. La Figure~\ref{fig:testPass} montre le result. 
+\begin{figure}[!htbp]
+    \begin{center}
+    \includegraphics[width=1\linewidth]{./uf_decimal_tests_pass.png}
+    \caption{Executer les tests de f\_decimal}
+    \label{fig:testPass}
+    \end{center}
+  \end{figure}
+  Pour aller plus loin, on pourrait tests d'autres aspect de \textit{f\_decimal}. 
+  Par exemple qu'est-ce qui se passe si on a \textit{f\_decimal("abc15")}?
+ Je vous laisse le soin d'essayer ça.
+  J'ai pas la réponse \smiley.
+\end{enumerate}
+  
+\newpage
+Je vous remercie, \textbf{HOUEKPETODJI Mahugnon Honoré}
 % \bibliographystyle{plain}
 % \bibliography{refs}
 \end{document}
