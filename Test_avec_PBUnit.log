@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.17)  13 OCT 2020 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.17)  13 OCT 2020 17:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -523,7 +523,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip53
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 55.
+Package hyperref Info: Option `colorlinks' set `true' on input line 61.
 \c@definition=\count311
  (c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.aux
 
@@ -532,33 +532,33 @@ LaTeX Warning: Label `fig:librarylist' multiply defined.
 )
 \openout1 = `Test_avec_PBUnit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Info: Redefining \degres on input line 65.
-LaTeX Info: Redefining \dots on input line 65.
-LaTeX Info: Redefining \up on input line 65.
-LaTeX Info: Redefining \microtypecontext on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Info: Redefining \degres on input line 71.
+LaTeX Info: Redefining \dots on input line 71.
+LaTeX Info: Redefining \up on input line 71.
+LaTeX Info: Redefining \microtypecontext on input line 71.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 65.
+LaTeX Info: Redefining \showhyphens on input line 71.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -586,7 +586,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box62
-Package hyperref Info: Link coloring ON on input line 65.
+Package hyperref Info: Link coloring ON on input line 71.
  (c:/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (c:/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -596,24 +596,24 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count319
 )
-LaTeX Info: Redefining \ref on input line 65.
-LaTeX Info: Redefining \pageref on input line 65.
-LaTeX Info: Redefining \nameref on input line 65.
+LaTeX Info: Redefining \ref on input line 71.
+LaTeX Info: Redefining \pageref on input line 71.
+LaTeX Info: Redefining \nameref on input line 71.
  (c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.out) (c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.out)
 \@outlinefile=\write4
 \openout4 = `Test_avec_PBUnit.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 67.
+(Font)              <12> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 67.
+(Font)              <8> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 67.
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 67.
+(Font)              <6> on input line 73.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 73.
  (c:/texlive/2020/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 67.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 73.
  (c:/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -622,7 +622,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (1.3686pt too wide) in paragraph at lines 67--67
+Overfull \hbox (1.3686pt too wide) in paragraph at lines 73--73
  [][] 
  []
 
@@ -645,7 +645,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <./testcase.png, id=159, 191.71625pt x 251.94125pt>
 File: ./testcase.png Graphic file (type png)
 <use ./testcase.png>
-Package pdftex.def Info: ./testcase.png  used on input line 121.
+Package pdftex.def Info: ./testcase.png  used on input line 127.
 (pdftex.def)             Requested size: 172.5pt x 226.70273pt.
  [3
 
@@ -653,17 +653,17 @@ Package pdftex.def Info: ./testcase.png  used on input line 121.
 <./frameworkPBUnit.png, id=170, 455.45157pt x 296.60812pt>
 File: ./frameworkPBUnit.png Graphic file (type png)
 <use ./frameworkPBUnit.png>
-Package pdftex.def Info: ./frameworkPBUnit.png  used on input line 146.
+Package pdftex.def Info: ./frameworkPBUnit.png  used on input line 152.
 (pdftex.def)             Requested size: 276.00105pt x 179.7449pt.
  [4 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./testcase.png>] [5 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./frameworkPBUnit.png>] (c:/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) [6]
-Overfull \hbox (4.16597pt too wide) in paragraph at lines 228--231
+Overfull \hbox (4.16597pt too wide) in paragraph at lines 234--237
 \T1/cmr/m/it/10 (-20) ney\T1/cmr/m/n/10 (-20) . Ajou-tez une nou-velle mé-thode of_Equals() à votre ob-jet \T1/cmr/m/it/10 (-20) n_cst_Money\T1/cmr/m/n/10 (-20) .
  []
 
 [7]
-Overfull \hbox (0.11674pt too wide) in paragraph at lines 280--281
+Overfull \hbox (0.11674pt too wide) in paragraph at lines 286--287
 []\T1/cmr/m/n/10 (-20) Ajoutez une mé-thode, \T1/cmr/m/it/10 (-20) test-Sim-pleAdd() \T1/cmr/m/n/10 (-20) qui tes-tera notre mé-thode \T1/cmr/m/it/10 (-20) of_add()\T1/cmr/m/n/10 (-20) . 
  []
 
@@ -671,9 +671,9 @@ Overfull \hbox (0.11674pt too wide) in paragraph at lines 280--281
 <./emptyPowerUnit.png, id=326, 1282.03969pt x 645.16031pt>
 File: ./emptyPowerUnit.png Graphic file (type png)
 <use ./emptyPowerUnit.png>
-Package pdftex.def Info: ./emptyPowerUnit.png  used on input line 387.
+Package pdftex.def Info: ./emptyPowerUnit.png  used on input line 393.
 (pdftex.def)             Requested size: 276.00105pt x 138.88396pt.
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 395.
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 401.
  (c:/texlive/2020/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -684,66 +684,66 @@ Package microtype Info: Loading generic protrusion settings for font family
 <./openTarget.png, id=328, 1564.34438pt x 724.95844pt>
 File: ./openTarget.png Graphic file (type png)
 <use ./openTarget.png>
-Package pdftex.def Info: ./openTarget.png  used on input line 399.
+Package pdftex.def Info: ./openTarget.png  used on input line 405.
 (pdftex.def)             Requested size: 276.00105pt x 127.89838pt.
 <./chooseTestTarget.png, id=329, 625.58719pt x 514.92375pt>
 File: ./chooseTestTarget.png Graphic file (type png)
 <use ./chooseTestTarget.png>
-Package pdftex.def Info: ./chooseTestTarget.png  used on input line 409.
+Package pdftex.def Info: ./chooseTestTarget.png  used on input line 415.
 (pdftex.def)             Requested size: 276.00105pt x 227.18pt.
 <./afterloadTarget.png, id=331, 1300.1072pt x 618.05907pt>
 File: ./afterloadTarget.png Graphic file (type png)
 <use ./afterloadTarget.png>
-Package pdftex.def Info: ./afterloadTarget.png  used on input line 418.
+Package pdftex.def Info: ./afterloadTarget.png  used on input line 424.
 (pdftex.def)             Requested size: 276.00105pt x 131.20142pt.
 <./powerUnitTestRunned.png, id=333, 985.43156pt x 560.0925pt>
 File: ./powerUnitTestRunned.png Graphic file (type png)
 <use ./powerUnitTestRunned.png>
-Package pdftex.def Info: ./powerUnitTestRunned.png  used on input line 427.
+Package pdftex.def Info: ./powerUnitTestRunned.png  used on input line 433.
 (pdftex.def)             Requested size: 276.00105pt x 156.86755pt.
 <./testPassed.png, id=335, 989.94844pt x 561.59813pt>
 File: ./testPassed.png Graphic file (type png)
 <use ./testPassed.png>
-Package pdftex.def Info: ./testPassed.png  used on input line 437.
+Package pdftex.def Info: ./testPassed.png  used on input line 443.
 (pdftex.def)             Requested size: 276.00105pt x 156.56943pt.
  [10 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./emptyPowerUnit.png>] [11 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./openTarget.png> <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./chooseTestTarget.png>] [12 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./afterloadTarget.png> <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./powerUnitTestRunned.png> <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./testPassed.png>]
 <./librarylist.png, id=351, 264.23718pt x 167.87718pt>
 File: ./librarylist.png Graphic file (type png)
 <use ./librarylist.png>
-Package pdftex.def Info: ./librarylist.png  used on input line 454.
+Package pdftex.def Info: ./librarylist.png  used on input line 460.
 (pdftex.def)             Requested size: 276.00105pt x 175.36174pt.
 <./choosetestbaselibraries.png, id=353, 418.56375pt x 347.79938pt>
 File: ./choosetestbaselibraries.png Graphic file (type png)
 <use ./choosetestbaselibraries.png>
-Package pdftex.def Info: ./choosetestbaselibraries.png  used on input line 466.
+Package pdftex.def Info: ./choosetestbaselibraries.png  used on input line 472.
 (pdftex.def)             Requested size: 276.00105pt x 229.33601pt.
 <./createTestLibrary.png, id=355, 385.44pt x 264.99pt>
 File: ./createTestLibrary.png Graphic file (type png)
 <use ./createTestLibrary.png>
-Package pdftex.def Info: ./createTestLibrary.png  used on input line 476.
+Package pdftex.def Info: ./createTestLibrary.png  used on input line 482.
 (pdftex.def)             Requested size: 276.00105pt x 189.74945pt.
 
-Overfull \hbox (11.88988pt too wide) in paragraph at lines 472--481
+Overfull \hbox (11.88988pt too wide) in paragraph at lines 478--487
 []\T1/cmr/m/n/10 (-20) Créer une blio-thèque pour ac-ceuillir les test. Moi je l'ap-pelle \T1/cmr/m/it/10 (-20) izy_protect_tests
  []
 
 <./nameTestObject.png, id=357, 245.41687pt x 278.54062pt>
 File: ./nameTestObject.png Graphic file (type png)
 <use ./nameTestObject.png>
-Package pdftex.def Info: ./nameTestObject.png  used on input line 485.
+Package pdftex.def Info: ./nameTestObject.png  used on input line 491.
 (pdftex.def)             Requested size: 276.00105pt x 313.26392pt.
 [13 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./librarylist.png>] [14 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./choosetestbaselibraries.png> <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./createTestLibrary.png>] [15 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./nameTestObject.png>]
 <./uf_decimal_tests_pass.png, id=380, 765.6103pt x 314.67563pt>
 File: ./uf_decimal_tests_pass.png Graphic file (type png)
 <use ./uf_decimal_tests_pass.png>
-Package pdftex.def Info: ./uf_decimal_tests_pass.png  used on input line 506.
+Package pdftex.def Info: ./uf_decimal_tests_pass.png  used on input line 512.
 (pdftex.def)             Requested size: 276.00105pt x 113.44159pt.
  [16 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./uf_decimal_tests_pass.png>] [17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 521.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 521.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 529.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 529.
  (c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 521.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 521.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 529.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 529.
 Package rerunfilecheck Info: File `Test_avec_PBUnit.out' has not changed.
 (rerunfilecheck)             Checksum: D9BA18217BCE311F948732E39B7B2AD0;1240.
 
@@ -760,7 +760,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  68i,8n,87p,916b,2049s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss0700.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/wasy-type1/wasy10.pfb>
-Output written on c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.pdf (17 pages, 647092 bytes).
+Output written on c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.pdf (17 pages, 649118 bytes).
 PDF statistics:
  488 PDF objects out of 1000 (max. 8388607)
  419 compressed objects within 5 object streams
