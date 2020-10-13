@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.17)  13 OCT 2020 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.17)  13 OCT 2020 16:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -654,7 +654,7 @@ Package pdftex.def Info: ./testcase.png  used on input line 121.
 File: ./frameworkPBUnit.png Graphic file (type png)
 <use ./frameworkPBUnit.png>
 Package pdftex.def Info: ./frameworkPBUnit.png  used on input line 146.
-(pdftex.def)             Requested size: 345.0pt x 224.68227pt.
+(pdftex.def)             Requested size: 276.00105pt x 179.7449pt.
  [4 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./testcase.png>] [5 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./frameworkPBUnit.png>] (c:/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) [6]
@@ -672,7 +672,7 @@ Overfull \hbox (0.11674pt too wide) in paragraph at lines 280--281
 File: ./emptyPowerUnit.png Graphic file (type png)
 <use ./emptyPowerUnit.png>
 Package pdftex.def Info: ./emptyPowerUnit.png  used on input line 387.
-(pdftex.def)             Requested size: 345.0pt x 173.61479pt.
+(pdftex.def)             Requested size: 276.00105pt x 138.88396pt.
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 395.
  (c:/texlive/2020/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -685,44 +685,43 @@ Package microtype Info: Loading generic protrusion settings for font family
 File: ./openTarget.png Graphic file (type png)
 <use ./openTarget.png>
 Package pdftex.def Info: ./openTarget.png  used on input line 399.
-(pdftex.def)             Requested size: 345.0pt x 159.87851pt.
+(pdftex.def)             Requested size: 276.00105pt x 127.89838pt.
 <./chooseTestTarget.png, id=329, 625.58719pt x 514.92375pt>
 File: ./chooseTestTarget.png Graphic file (type png)
 <use ./chooseTestTarget.png>
 Package pdftex.def Info: ./chooseTestTarget.png  used on input line 409.
-(pdftex.def)             Requested size: 345.0pt x 283.97893pt.
+(pdftex.def)             Requested size: 276.00105pt x 227.18pt.
 <./afterloadTarget.png, id=331, 1300.1072pt x 618.05907pt>
 File: ./afterloadTarget.png Graphic file (type png)
 <use ./afterloadTarget.png>
 Package pdftex.def Info: ./afterloadTarget.png  used on input line 418.
-(pdftex.def)             Requested size: 345.0pt x 164.00177pt.
+(pdftex.def)             Requested size: 276.00105pt x 131.20142pt.
 <./powerUnitTestRunned.png, id=333, 985.43156pt x 560.0925pt>
 File: ./powerUnitTestRunned.png Graphic file (type png)
 <use ./powerUnitTestRunned.png>
 Package pdftex.def Info: ./powerUnitTestRunned.png  used on input line 427.
-(pdftex.def)             Requested size: 345.0pt x 196.08658pt.
- [10 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./emptyPowerUnit.png>] [11 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./openTarget.png> <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./chooseTestTarget.png>]
-<./testPassed.png, id=345, 989.94844pt x 561.59813pt>
+(pdftex.def)             Requested size: 276.00105pt x 156.86755pt.
+<./testPassed.png, id=335, 989.94844pt x 561.59813pt>
 File: ./testPassed.png Graphic file (type png)
 <use ./testPassed.png>
 Package pdftex.def Info: ./testPassed.png  used on input line 437.
-(pdftex.def)             Requested size: 345.0pt x 195.71393pt.
- [12 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./afterloadTarget.png> <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./powerUnitTestRunned.png>]
+(pdftex.def)             Requested size: 276.00105pt x 156.56943pt.
+ [10 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./emptyPowerUnit.png>] [11 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./openTarget.png> <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./chooseTestTarget.png>] [12 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./afterloadTarget.png> <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./powerUnitTestRunned.png> <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./testPassed.png>]
 <./librarylist.png, id=351, 264.23718pt x 167.87718pt>
 File: ./librarylist.png Graphic file (type png)
 <use ./librarylist.png>
 Package pdftex.def Info: ./librarylist.png  used on input line 454.
-(pdftex.def)             Requested size: 345.0pt x 219.2009pt.
+(pdftex.def)             Requested size: 276.00105pt x 175.36174pt.
 <./choosetestbaselibraries.png, id=353, 418.56375pt x 347.79938pt>
 File: ./choosetestbaselibraries.png Graphic file (type png)
 <use ./choosetestbaselibraries.png>
 Package pdftex.def Info: ./choosetestbaselibraries.png  used on input line 466.
-(pdftex.def)             Requested size: 345.0pt x 286.67267pt.
+(pdftex.def)             Requested size: 276.00105pt x 229.33601pt.
 <./createTestLibrary.png, id=355, 385.44pt x 264.99pt>
 File: ./createTestLibrary.png Graphic file (type png)
 <use ./createTestLibrary.png>
 Package pdftex.def Info: ./createTestLibrary.png  used on input line 476.
-(pdftex.def)             Requested size: 345.0pt x 237.18681pt.
+(pdftex.def)             Requested size: 276.00105pt x 189.74945pt.
 
 Overfull \hbox (11.88988pt too wide) in paragraph at lines 472--481
 []\T1/cmr/m/n/10 (-20) Créer une blio-thèque pour ac-ceuillir les test. Moi je l'ap-pelle \T1/cmr/m/it/10 (-20) izy_protect_tests
@@ -732,14 +731,14 @@ Overfull \hbox (11.88988pt too wide) in paragraph at lines 472--481
 File: ./nameTestObject.png Graphic file (type png)
 <use ./nameTestObject.png>
 Package pdftex.def Info: ./nameTestObject.png  used on input line 485.
-(pdftex.def)             Requested size: 345.0pt x 391.57777pt.
-[13 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./testPassed.png>]
-<./uf_decimal_tests_pass.png, id=372, 765.6103pt x 314.67563pt>
+(pdftex.def)             Requested size: 276.00105pt x 313.26392pt.
+[13 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./librarylist.png>] [14 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./choosetestbaselibraries.png> <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./createTestLibrary.png>] [15 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./nameTestObject.png>]
+<./uf_decimal_tests_pass.png, id=380, 765.6103pt x 314.67563pt>
 File: ./uf_decimal_tests_pass.png Graphic file (type png)
 <use ./uf_decimal_tests_pass.png>
 Package pdftex.def Info: ./uf_decimal_tests_pass.png  used on input line 506.
-(pdftex.def)             Requested size: 345.0pt x 141.79958pt.
- [14 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./librarylist.png>] [15 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./choosetestbaselibraries.png>] [16 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./createTestLibrary.png>] [17 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./nameTestObject.png>] [18 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./uf_decimal_tests_pass.png>]
+(pdftex.def)             Requested size: 276.00105pt x 113.44159pt.
+ [16 <c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/./uf_decimal_tests_pass.png>] [17]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 521.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 521.
  (c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.aux)
@@ -753,18 +752,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 25522 strings out of 480876
- 463330 string characters out of 5911487
- 1076360 words of memory out of 5000000
+ 25521 strings out of 480876
+ 463323 string characters out of 5911487
+ 1084165 words of memory out of 5000000
  40378 multiletter control sequences out of 15000+600000
  554866 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,8n,87p,916b,2086s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,8n,87p,916b,2049s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss0700.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/wasy-type1/wasy10.pfb>
-Output written on c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.pdf (18 pages, 647279 bytes).
+Output written on c:/Users/h.houekpetodji/Desktop/utility/Tests_unitaire_avec_PBUnit/Test_avec_PBUnit.pdf (17 pages, 647092 bytes).
 PDF statistics:
- 492 PDF objects out of 1000 (max. 8388607)
- 422 compressed objects within 5 object streams
- 186 named destinations out of 1000 (max. 500000)
+ 488 PDF objects out of 1000 (max. 8388607)
+ 419 compressed objects within 5 object streams
+ 185 named destinations out of 1000 (max. 500000)
  27950 words of extra memory for PDF output out of 29859 (max. 10000000)
 

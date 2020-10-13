@@ -143,7 +143,7 @@ La Figure \ref{fig:testcase}   montre les quatre étapes d'un cas de test unitai
 \subsection{Présentation}
  \begin{figure}[!htbp]
   \begin{center}
-  \includegraphics[width=1\linewidth]{./frameworkPBUnit.png}
+  \includegraphics[width=.8\linewidth]{./frameworkPBUnit.png}
   \caption{Power unit}
   \label{fig:powerUnit}
   \end{center}
@@ -384,7 +384,7 @@ Cette partie suppose que vous avez déjà télécharger l'interface de Power  Un
     La fenêtre de la Figure \ref{fig:emptyPowerUnit} s'ouvre
     \begin{figure}[!htbp]
         \begin{center}
-        \includegraphics[width=1\linewidth]{./emptyPowerUnit.png}
+        \includegraphics[width=.8\linewidth]{./emptyPowerUnit.png}
         \caption{Power unit}
         \label{fig:emptyPowerUnit}
         \end{center}
@@ -396,7 +396,7 @@ Parlant de \textit{target}, sélectionnons notre target \textit{PBCookBook.pbt}.
 
 \begin{figure}[!htbp]
     \begin{center}
-    \includegraphics[width=1\linewidth]{./openTarget.png}
+    \includegraphics[width=.8\linewidth]{./openTarget.png}
     \caption{Choisir une target}
     \label{fig:openTarget}
     \end{center}
@@ -406,7 +406,7 @@ Parlant de \textit{target}, sélectionnons notre target \textit{PBCookBook.pbt}.
 
   \begin{figure}[!htbp]
     \begin{center}
-    \includegraphics[width=1\linewidth]{./chooseTestTarget.png}
+    \includegraphics[width=.8\linewidth]{./chooseTestTarget.png}
     \caption{Selectionner la target à son emplacement}
     \label{fig:chooseTestTarget}
     \end{center}
@@ -415,7 +415,7 @@ Parlant de \textit{target}, sélectionnons notre target \textit{PBCookBook.pbt}.
   \item  La Figure \ref{fig:afterloadTarget} montre la partie (1) de PowerUnit après chargement des tests.
   \begin{figure}[!htbp]
     \begin{center}
-    \includegraphics[width=1\linewidth]{./afterloadTarget.png}
+    \includegraphics[width=.8\linewidth]{./afterloadTarget.png}
     \caption{PowerUnit après chargement des tests}
     \label{fig:afterloadTarget}
     \end{center}
@@ -424,7 +424,7 @@ Parlant de \textit{target}, sélectionnons notre target \textit{PBCookBook.pbt}.
  La Figure \ref{fig:powerUnitTestRunned} présente PowerUnit après exécution des tests.
   \begin{figure}[!htbp]
     \begin{center}
-    \includegraphics[width=1\linewidth]{./powerUnitTestRunned.png}
+    \includegraphics[width=.8\linewidth]{./powerUnitTestRunned.png}
     \caption{PowerUnit après exécution des tests}
     \label{fig:powerUnitTestRunned}
     \end{center}
@@ -434,7 +434,7 @@ Parlant de \textit{target}, sélectionnons notre target \textit{PBCookBook.pbt}.
 Dans le cas où tous les tests passent, Power Unit ressemble à la Figure \ref{fig:testPassed}
 \begin{figure}[!htbp]
     \begin{center}
-    \includegraphics[width=1\linewidth]{./testPassed.png}
+    \includegraphics[width=.8\linewidth]{./testPassed.png}
     \caption{PowerUnit après exécution des tests}
     \label{fig:testPassed}
     \end{center}
@@ -451,7 +451,7 @@ Elle sera notre candidat pour cet exercice.
     \item Cliquer droit sur la taget et choisir l'option \textit{Library list...} comme sur la Figure~\ref{fig:librarylist}
     \begin{figure}[!htbp]
         \begin{center}
-        \includegraphics[width=1\linewidth]{./librarylist.png}
+        \includegraphics[width=.8\linewidth]{./librarylist.png}
         \caption{Ouvrir la liste des bibliothèques}
         \label{fig:librarylist}
         \end{center}
@@ -463,7 +463,7 @@ Cela facilitera automatisation des execution sur la CI (Jenkins à l'arvenir).
 \item Choisir les bibliothèques \textcolor{red}{\textit{\textbf{pbunit et pbunitfunc}}}, puis valider votre choix.
 \begin{figure}[!htbp]
     \begin{center}
-    \includegraphics[width=1\linewidth]{./choosetestbaselibraries.png}
+    \includegraphics[width=.8\linewidth]{./choosetestbaselibraries.png}
     \caption{Ajouter les bliothèques \textcolor{red}{\textit{\textbf{pbunit et pbunitfunc}}} à Izy Protect}
     \label{fig:librarylist}
     \end{center}
@@ -473,7 +473,7 @@ Cela facilitera automatisation des execution sur la CI (Jenkins à l'arvenir).
  Moi je l'appelle \textit{izy\_protect\_tests} (voir la Figure~\ref{fig:createTestLibrary}).
 \begin{figure}[!htbp]
     \begin{center}
-    \includegraphics[width=1\linewidth]{./createTestLibrary.png}
+    \includegraphics[width=.8\linewidth]{./createTestLibrary.png}
     \caption{Bibliothèque de tests}
     \label{fig:createTestLibrary}
     \end{center}
@@ -482,7 +482,7 @@ Cela facilitera automatisation des execution sur la CI (Jenkins à l'arvenir).
   \item Nommer l'object test \textit{test\_f\_decimal} et chosir la bibliothèque de test comme sur la Figure~\ref{fig:nameTestObject}
   \begin{figure}[!htbp]
     \begin{center}
-    \includegraphics[width=1\linewidth]{./nameTestObject.png}
+    \includegraphics[width=.8\linewidth]{./nameTestObject.png}
     \caption{Enregister la testcase}
     \label{fig:nameTestObject}
     \end{center}
@@ -503,7 +503,7 @@ Ceci étant allons-y créer un test pour notre function gloable \textit{f\_decim
 \item Cliquer sur le bouton \keys{runAll} pour executer les deux tests. La Figure~\ref{fig:testPass} montre le result. 
 \begin{figure}[!htbp]
     \begin{center}
-    \includegraphics[width=1\linewidth]{./uf_decimal_tests_pass.png}
+    \includegraphics[width=.8\linewidth]{./uf_decimal_tests_pass.png}
     \caption{Executer les tests de f\_decimal}
     \label{fig:testPass}
     \end{center}
